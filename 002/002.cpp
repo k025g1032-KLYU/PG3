@@ -1,9 +1,13 @@
 #include<stdio.h>
+#include<iostream>
+#include<Windows.h>
 
 int main() {
 
-	printf("Hello World!\n");
+	SetConsoleOutputCP(65001);
 
+	char str[] = "こんにちは ";
+	printf("%s\n",str);
 
 
 	return 0;
